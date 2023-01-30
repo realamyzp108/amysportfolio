@@ -1,0 +1,512 @@
+
+body {
+  
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: .8px;
+  color: #333;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Rowdies', cursive;
+}
+
+#mainvisual {
+  margin-bottom: 20px;
+}
+#mainvisual img {
+  width: 100%;
+  max-width: 1920px;
+  height: 500px;
+  object-fit: cover;
+}
+
+a {
+  transition: opacity .3s;
+  text-decoration: none;
+  color: #000a09;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+  border-style: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.pc-only {
+  display: block;
+}
+
+.sp-only {
+  display: none;
+}
+
+/*--------------------------------
+ layout
+---------------------------------*/
+.section {
+  padding: 0 0 150px 0;
+}
+
+.section .pt80{
+  padding-top: 200px;
+}
+
+.inner {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding:50px 0 40px;
+}
+
+/*--------------------------------
+ title
+---------------------------------*/
+.title {
+  font-size: 34px;
+  line-height: 1;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: .1em;
+  color: rgb(205, 21, 98);;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Rowdies', cursive;
+}
+
+.lead {
+  margin-bottom: 30px;
+}
+
+/*--------------------------------
+globalnavi
+---------------------------------*/
+.gnav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #fff;
+}
+
+.gnav-inner {
+  padding: 20px 40px 20px;
+}
+
+.gnav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.gnav-item {
+  margin: 0 20px;
+}
+
+.gnav-item a {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  display: inline-block;
+  padding: 5px 0;
+  transition: .3s;
+  letter-spacing: .05em;
+  color: #333;
+}
+
+.gnav-item a:hover {
+  opacity: .8;
+}
+
+/*--------------------------------
+ Works
+---------------------------------*/
+
+
+.works-item {
+  width: 31.74603%;
+  margin-right: 1.58730%;
+  margin-bottom: 40px;
+  color: #333;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Rowdies', cursive;
+}
+
+.works-img img {
+  border: 1px solid #e6e6e6;
+  width: 100%;
+  max-width: 640px;
+  height: 250px;
+}
+
+.works-name {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 8px;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Rowdies', cursive;
+}
+
+.works-info {
+  font-size: 10px;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Rowdies', cursive;
+}
+
+/*--------------------------------
+ Skill
+---------------------------------*/
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: -50px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 48%;
+  margin-bottom: 50px;
+}
+
+.skill-img {
+  width: 60px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.skill-body {
+  flex: 1;
+}
+
+.skill-name {
+  margin-bottom: 3px;
+}
+
+/*--------------------------------
+ About
+---------------------------------*/
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.profile-img {
+  width: 20%;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.profile-img img {
+  border-radius: 50%;
+}
+.profile-body {
+  flex: 1;
+}
+.profile-body p:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+/*--------------------------------
+ Contact
+---------------------------------*/
+#contact .Form {
+  /*margin-top: 80px;*/
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+}
+
+#contact .Form-Item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#contact .Form-Item-Label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#contact .Form-Item-Label-Required {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+
+  color: rgb(205, 21, 98);
+  font-size: 14px;
+}
+
+#contact .Form-Item-Input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 48px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+
+#contact .Form-Item-Textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 216px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+
+#contact .Form-Btn {
+  border-radius: 6px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 280px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: #545454;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+/*--------------------------------
+ pagetop
+---------------------------------*/
+.page-top {
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #fadcea;
+}
+
+.page-top .material-icons-outlined {
+  vertical-align: bottom;
+  color: #333;
+}
+
+/*--------------------------------
+ footer
+---------------------------------*/
+.footer {
+  padding: 30px;
+  background-color: rgb(205, 21, 98);;
+}
+
+.copyright {
+  font-size: 12px;
+  text-align: center;
+  color: #e7e0e0;
+}
+
+/*--------------------------------
+sub:workpage
+---------------------------------*/
+.article {
+  padding: 80px 0;
+}
+
+.article-inner {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.article-title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.article-img {
+  margin-bottom: 20px;
+}
+
+.article-body {
+  max-width: 720px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.article-info-title {
+  font-size: 15px;
+}
+
+.article-body img {
+  margin-bottom: 30px;
+}
+
+.article-body p {
+  margin-bottom: 30px;
+}
+
+.home-link {
+  text-align: center;
+}
+
+/*----------------------------------------------------
+inquiry
+----------------------------------------------------*/
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .pc-only {
+    display: none;
+  }
+
+  .sp-only {
+    display: block;
+  }
+
+  /* title */
+  .title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  /* layout */
+  .section {
+    padding: 60px 0;
+  }
+
+  .inner {
+    padding: 0 20px;
+  }
+
+  /*  header */
+  .header {
+    height: 60vh;
+  }
+
+  .header-inner {
+    padding: 0 20px;
+  }
+
+  .header-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .header-subtitle {
+    font-size: 18px;
+  }
+
+  /*  sub:header */
+  .sub-header-inner {
+    padding: 20px 0 10px 0;
+  }
+
+  .sub-header-title {
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+  }
+  .sub-header-subtitle {
+    font-size: 14px;
+  }
+
+  /*globalnavi */
+  .gnav .inner {
+    padding: 15px;
+  }
+
+  .gnav-logo {
+    font-size: 15px;
+  }
+
+  .gnav-item:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .gnav-item a {
+    font-size: 12px;
+  }
+
+  .gnav-item a:after {
+    display: none;
+  }
+
+  /* Works */
+  .works-name {
+    font-size: 10px;
+  }
+
+  .works-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .works-item {
+    flex: 0 0 48%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  /* Skill */
+  .skill-list {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .skill-item {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .skill-item:last-child {
+    margin-bottom: 0;
+  }
+
+  /* About */
+  .profile {
+    display: block;
+  }
+  .profile-img {
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  .profile-body p:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  /* footer */
+  .footer {
+    padding: 20px;
+  }
+
+  /* sub:page */
+  .article {
+    padding: 30px 0;
+  }
+}
